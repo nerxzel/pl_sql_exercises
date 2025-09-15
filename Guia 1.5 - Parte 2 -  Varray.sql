@@ -8,7 +8,7 @@ DECLARE
 
 BEGIN
 
-    v_salary_array := SalaryArray(2500, 2600, 2800, 2900, 3100, 4200, 4400, 4800);
+    v_salary_array := SalaryArray();
     
     SELECT SALARY 
         BULK COLLECT INTO v_salary_array
